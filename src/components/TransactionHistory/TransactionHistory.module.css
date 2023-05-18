@@ -1,0 +1,69 @@
+.transactionHistory {
+  display: flex;
+  flex-direction: column;
+}
+.tableHead {
+  display: inherit;
+  flex-grow: 1;
+  background-color: lightskyblue;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+}
+.head {
+  flex-grow: 1;
+  justify-content: space-between;
+  display: flex;
+  width: 100%;
+}
+.tableBody {
+  display: inherit;
+  flex-grow: 1;
+  flex-direction: column;
+  flex-wrap: wrap;
+  .tableRow:nth-child(even) {
+    background-color: aqua;
+  }
+}
+.tableRow {
+  display: flex;
+  flex-basis: calc(100% / 3);
+}
+.tableTitles {
+  display: flex;
+  color: white;
+  border: 1px solid gray;
+  flex-basis: calc(100% / 3);
+  padding: 10px;
+  justify-content: center;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    line-height: calc(26 / 20);
+    padding: 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+    padding: 20px;
+  }
+}
+.tableData {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  flex-basis: calc(100% / 3);
+  border: 1px solid grey;
+  color: grey;
+  @media screen and (min-width: 768px) {
+    font-size: 20px;
+    line-height: calc(26 / 20);
+    padding: 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+    padding: 20px;
+  }
+}
+.type {
+  text-transform: capitalize;
+}

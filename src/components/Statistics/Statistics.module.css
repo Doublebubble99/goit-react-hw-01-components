@@ -1,0 +1,72 @@
+.statistics {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+.title {
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: calc(24 / 20);
+  @media screen and (min-width: 768px) {
+    font-size: 28px;
+    line-height: calc(32 / 28);
+    padding-top: 25px;
+    padding-bottom: 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 32px;
+    line-height: calc(36 / 32);
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+.statList {
+  display: flex;
+  justify-content: space-between;
+}
+.item {
+  display: inherit;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: greenyellow; */
+  padding: 10px;
+  @media screen and (min-width: 1200px) {
+    padding: 15px;
+  }
+}
+.label {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  color: gray;
+  padding-bottom: 5px;
+  line-height: calc(16 / 12);
+  @media screen and (min-width: 768px) {
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    padding-bottom: 10px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+    padding-bottom: 15px;
+  }
+}
+.percentage {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(20 / 16);
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+    line-height: calc(28 / 24);
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 30px;
+    line-height: calc(34 / 30);
+  }
+}
