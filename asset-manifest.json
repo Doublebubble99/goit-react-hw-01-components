@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Doublebubble99/goit-react-hw-01-components/static/css/main.de2dbb07.css",
-    "main.js": "/Doublebubble99/goit-react-hw-01-components/static/js/main.b1c592ee.js",
-    "index.html": "/Doublebubble99/goit-react-hw-01-components/index.html",
-    "main.de2dbb07.css.map": "/Doublebubble99/goit-react-hw-01-components/static/css/main.de2dbb07.css.map",
-    "main.b1c592ee.js.map": "/Doublebubble99/goit-react-hw-01-components/static/js/main.b1c592ee.js.map"
+    "main.css": "/goit-react-hw-01-components/static/css/main.de2dbb07.css",
+    "main.js": "/goit-react-hw-01-components/static/js/main.b1c592ee.js",
+    "index.html": "/goit-react-hw-01-components/index.html",
+    "main.de2dbb07.css.map": "/goit-react-hw-01-components/static/css/main.de2dbb07.css.map",
+    "main.b1c592ee.js.map": "/goit-react-hw-01-components/static/js/main.b1c592ee.js.map"
   },
   "entrypoints": [
     "static/css/main.de2dbb07.css",
